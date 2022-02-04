@@ -9,6 +9,8 @@ int main(){
 
   result = fk(n) / (fk(r) * fk(n-r));
   cout << "\nThe result : " << result;
+  //out put
+  //56
 
   return 0;
 }
