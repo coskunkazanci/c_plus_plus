@@ -4,6 +4,7 @@ using namespace std;
 int main(){
   //for generate different random number 
   srand(time(0));
+  //arrays
   int numbers[100];
   int frequency[6]={0,0,0,0,0,0};
 
