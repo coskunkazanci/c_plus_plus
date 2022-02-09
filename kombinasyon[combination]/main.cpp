@@ -2,11 +2,11 @@
 using namespace std;
 
 //decleration function
-int fk(int x);
+int fk(int x); 
 
 int main(){
   int result=0, n=8, r=5;
-
+  //call function for result
   result = fk(n) / (fk(r) * fk(n-r));
   cout << "\nThe result : " << result;
   //out put
